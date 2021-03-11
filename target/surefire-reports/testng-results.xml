@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Execution" duration-ms="19887" started-at="2021-03-11T14:56:46Z" finished-at="2021-03-11T14:57:06Z">
+    <groups>
+      <group name="create_post">
+        <method signature="PostTest.deleteArticleSuccess()[pri:0, instance:Test.PostTest@735f7ae5]" name="deleteArticleSuccess" class="Test.PostTest"/>
+        <method signature="PostTest.getOneArticle()[pri:0, instance:Test.PostTest@735f7ae5]" name="getOneArticle" class="Test.PostTest"/>
+        <method signature="CommentTest.BcreateComment()[pri:0, instance:Test.CommentTest@54a097cc]" name="BcreateComment" class="Test.CommentTest"/>
+        <method signature="CommentTest.deleteArticleSuccess()[pri:0, instance:Test.CommentTest@54a097cc]" name="deleteArticleSuccess" class="Test.CommentTest"/>
+      </group> <!-- create_post -->
+    </groups>
+    <test name="Test" duration-ms="13602" started-at="2021-03-11T14:56:46Z" finished-at="2021-03-11T14:56:59Z">
+      <class name="Test.PostTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Test.PostTest@735f7ae5]" name="setUp" is-config="true" duration-ms="384" started-at="2021-03-11T14:56:46Z" finished-at="2021-03-11T14:56:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AinvalidEditionPost()[pri:0, instance:Test.PostTest@735f7ae5]" name="AinvalidEditionPost" duration-ms="2811" started-at="2021-03-11T14:56:46Z" finished-at="2021-03-11T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AinvalidEditionPost -->
+        <test-method status="PASS" signature="createPostSucess()[pri:0, instance:Test.PostTest@735f7ae5]" name="createPostSucess" duration-ms="1826" started-at="2021-03-11T14:56:49Z" finished-at="2021-03-11T14:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostSucess -->
+        <test-method status="PASS" signature="createPostforDelete()[pri:0, instance:Test.PostTest@735f7ae5]" name="createPostforDelete" is-config="true" duration-ms="2034" started-at="2021-03-11T14:56:51Z" finished-at="2021-03-11T14:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostforDelete -->
+        <test-method status="PASS" signature="deleteArticleSuccess()[pri:0, instance:Test.PostTest@735f7ae5]" name="deleteArticleSuccess" duration-ms="1530" started-at="2021-03-11T14:56:53Z" finished-at="2021-03-11T14:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteArticleSuccess -->
+        <test-method status="PASS" signature="editPostSucess()[pri:0, instance:Test.PostTest@735f7ae5]" name="editPostSucess" duration-ms="1507" started-at="2021-03-11T14:56:54Z" finished-at="2021-03-11T14:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editPostSucess -->
+        <test-method status="PASS" signature="getAllArticlesFromUser()[pri:0, instance:Test.PostTest@735f7ae5]" name="getAllArticlesFromUser" duration-ms="1416" started-at="2021-03-11T14:56:56Z" finished-at="2021-03-11T14:56:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllArticlesFromUser -->
+        <test-method status="PASS" signature="getOneArticle()[pri:0, instance:Test.PostTest@735f7ae5]" name="getOneArticle" duration-ms="1512" started-at="2021-03-11T14:56:57Z" finished-at="2021-03-11T14:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOneArticle -->
+        <test-method status="PASS" signature="invalidTokenCantCreateNewPost()[pri:0, instance:Test.PostTest@735f7ae5]" name="invalidTokenCantCreateNewPost" duration-ms="565" started-at="2021-03-11T14:56:59Z" finished-at="2021-03-11T14:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidTokenCantCreateNewPost -->
+      </class> <!-- Test.PostTest -->
+    </test> <!-- Test -->
+    <test name="Comment" duration-ms="6266" started-at="2021-03-11T14:56:59Z" finished-at="2021-03-11T14:57:06Z">
+      <class name="Test.CommentTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:Test.CommentTest@54a097cc]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-11T14:56:59Z" finished-at="2021-03-11T14:56:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AcreatePost()[pri:0, instance:Test.CommentTest@54a097cc]" name="AcreatePost" is-config="true" duration-ms="1630" started-at="2021-03-11T14:56:59Z" finished-at="2021-03-11T14:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AcreatePost -->
+        <test-method status="PASS" signature="BcreateComment()[pri:0, instance:Test.CommentTest@54a097cc]" name="BcreateComment" duration-ms="703" started-at="2021-03-11T14:57:01Z" finished-at="2021-03-11T14:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BcreateComment -->
+        <test-method status="PASS" signature="CeditArticleSucess()[pri:0, instance:Test.CommentTest@54a097cc]" name="CeditArticleSucess" duration-ms="863" started-at="2021-03-11T14:57:02Z" finished-at="2021-03-11T14:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CeditArticleSucess -->
+        <test-method status="PASS" signature="DgetCommentsFromUser()[pri:0, instance:Test.CommentTest@54a097cc]" name="DgetCommentsFromUser" duration-ms="711" started-at="2021-03-11T14:57:03Z" finished-at="2021-03-11T14:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DgetCommentsFromUser -->
+        <test-method status="PASS" signature="FgetOneComment()[pri:0, instance:Test.CommentTest@54a097cc]" name="FgetOneComment" duration-ms="718" started-at="2021-03-11T14:57:03Z" finished-at="2021-03-11T14:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FgetOneComment -->
+        <test-method status="PASS" signature="deleteArticleSuccess()[pri:0, instance:Test.CommentTest@54a097cc]" name="deleteArticleSuccess" duration-ms="987" started-at="2021-03-11T14:57:04Z" finished-at="2021-03-11T14:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteArticleSuccess -->
+        <test-method status="PASS" signature="invalidUsertoCreate()[pri:0, instance:Test.CommentTest@54a097cc]" name="invalidUsertoCreate" duration-ms="652" started-at="2021-03-11T14:57:05Z" finished-at="2021-03-11T14:57:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsertoCreate -->
+      </class> <!-- Test.CommentTest -->
+    </test> <!-- Comment -->
+  </suite> <!-- Execution -->
+</testng-results>
